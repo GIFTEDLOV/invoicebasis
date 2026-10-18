@@ -1,0 +1,10 @@
+{
+  "app": "invoicebasis",
+  "chainId": 61999,
+  "address": "0x3C066b25aa1BaF2374F9b1540f99594C737caf8a",
+  "sourceSha256": "5551281645d5f2e8f42cbc4a66404393f81a6daa40b0e315abf572bc0c47f1fc",
+  "installedSourceSha256": "5551281645d5f2e8f42cbc4a66404393f81a6daa40b0e315abf572bc0c47f1fc",
+  "sourceByteParity": "PASS",
+  "originalDeployRun": 39138161003,
+  "originalDeployCommit": "5e1d96fec2484b5fea5d1c8cfb3777ba9f51a352"
+}

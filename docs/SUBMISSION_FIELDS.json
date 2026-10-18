@@ -1,0 +1,20 @@
+{
+  "projectName": "InvoiceBasis",
+  "shortDescription": "Determine invoice eligibility from frozen terms and evidence, then derive a bounded payable basis with deterministic integer arithmetic.",
+  "detailedDescription": "InvoiceBasis creates a consent-bound invoice case with immutable eligibility terms, bounded gross minor units and a fixed rational rate. A distinct designated attestor wallet signs the evidence digest. GenLayer validators independently assess invoice class, exclusions and evidence sufficiency; the contract calculates the provisional payable basis using integer floor division and never transfers funds. Challenges and second-round deliberation precede finalization.",
+  "problemSolved": "Invoice eligibility can be semantically ambiguous while payment arithmetic, rates and rounding must remain fixed and reproducible.",
+  "whyGenLayer": "Semantic consensus evaluates the meaning of frozen eligibility terms and evidence. Deterministic code alone cannot decide a nuanced invoice-class or exclusion question. Amount, rate, actors and rules remain contract-controlled.",
+  "semanticConsensus": "Leader and validators independently classify the exact eligibility vector in gl.vm.run_nondet_unsafe. Strict vector validation and validator rerun are required; disagreement aborts adjudication. Deterministic code derives ELIGIBLE, INELIGIBLE or REVIEW_REQUIRED and provisional payable amount.",
+  "githubRepository": "https://github.com/GIFTEDLOV/invoicebasis",
+  "productionApp": null,
+  "chainId": 61999,
+  "contractAddress": "0x3C066b25aa1BaF2374F9b1540f99594C737caf8a",
+  "explorerUrl": "https://explorer-studio.genlayer.com/address/0x3C066b25aa1BaF2374F9b1540f99594C737caf8a",
+  "sourceSha256": "5551281645d5f2e8f42cbc4a66404393f81a6daa40b0e315abf572bc0c47f1fc",
+  "abiSchemaSha256": "da35a4c41e7fd7c652d4be8b403967c843eaa4ff64f274dc2d98b3d04bc73c54",
+  "qualificationCase": "GLV4-invoicebasis-39138804500",
+  "terminalVerdict": "REVIEW_REQUIRED",
+  "evidencePath": "evidence/invoicebasis-live.json",
+  "reviewInstructions": "Inspect contracts/invoicebasis.py and evidence/invoicebasis-live.json for GLV4-invoicebasis-39138804500. The recorded terminal result is REVIEW_REQUIRED. Do not replace it with a positive result. This is a standalone contract with no app URL.",
+  "knownLimitations": "An attestor signature proves control of the designated wallet, not issuer identity, invoice origin or source-record truth. Amounts are determinations only; the contract does not escrow or transfer funds. Live qualification references use synthetic source data."
+}

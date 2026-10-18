@@ -1,0 +1,31 @@
+{
+  "address": "0x3C066b25aa1BaF2374F9b1540f99594C737caf8a",
+  "hash": "5551281645d5f2e8f42cbc4a66404393f81a6daa40b0e315abf572bc0c47f1fc",
+  "abi": "da35a4c41e7fd7c652d4be8b403967c843eaa4ff64f274dc2d98b3d04bc73c54",
+  "case": "GLV4-invoicebasis-39138804500",
+  "verdict": "REVIEW_REQUIRED",
+  "workflow": 39138804500,
+  "semantic": [
+    "0x87a49a901077a3efb156e7d64388a3f9b63eae59815e431a2653479061ce7e94",
+    "0x8a49cfde7d369465f559f5ea86ece71a82f4c8b3a462860d49d2a0fa0ff2c290"
+  ],
+  "final": "0xd9cd2fa9cd3138164d9db99c1a0ac81f1b310dcb317801878e85ee16eb241372",
+  "app": null,
+  "name": "InvoiceBasis",
+  "short": "Determine invoice eligibility against frozen terms, then derive a bounded payable basis with deterministic integer arithmetic.",
+  "problem": "Invoice evidence can be semantically ambiguous while payment amounts, rates and rounding rules must remain fixed and reproducible.",
+  "solution": "Validators independently evaluate eligibility semantics; the contract derives the payable amount from frozen integer parameters with bounded rates and floor rounding.",
+  "outcomes": "ELIGIBLE, INELIGIBLE, or REVIEW_REQUIRED. Payable amount remains provisional until finalization.",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x3C066b25aa1BaF2374F9b1540f99594C737caf8a",
+  "repo": "https://github.com/GIFTEDLOV/invoicebasis",
+  "sourceFile": "contracts/invoicebasis.py",
+  "schemaSha256": "da35a4c41e7fd7c652d4be8b403967c843eaa4ff64f274dc2d98b3d04bc73c54",
+  "chainId": 61999,
+  "caseStatus": "FINALIZED",
+  "workflowUrl": "https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500",
+  "sourceProvenanceRun": "https://github.com/GIFTEDLOV/driftproof/actions/runs/39138161003",
+  "firstRoundTx": "0x87a49a901077a3efb156e7d64388a3f9b63eae59815e431a2653479061ce7e94",
+  "secondRoundTx": "0x8a49cfde7d369465f559f5ea86ece71a82f4c8b3a462860d49d2a0fa0ff2c290",
+  "finalizationTx": "0xd9cd2fa9cd3138164d9db99c1a0ac81f1b310dcb317801878e85ee16eb241372",
+  "productionQualification": "INCOMPLETE: public app remains RELEASE_QUALIFIED=false pending signed-browser live E2E; do not submit as a fully qualified frontend."
+}
