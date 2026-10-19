@@ -7,7 +7,7 @@
 - Deployed V4 source SHA-256: `5551281645d5f2e8f42cbc4a66404393f81a6daa40b0e315abf572bc0c47f1fc`; ABI schema SHA-256: `da35a4c41e7fd7c652d4be8b403967c843eaa4ff64f274dc2d98b3d04bc73c54`.
 - Historic case `GLV4-invoicebasis-39138804500`: `FINALIZED / REVIEW_REQUIRED`; its source inputs are synthetic and labeled.
 - Qualification workflow: [39138804500](https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500).
-- Exact-main CI before release preparation: [39161811618](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618) passed.
+- Exact-main CI on the release preparation baseline: [39175260479](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479) passed.
 - This is a standalone contract release; no production app is claimed.
 
 The original V4 contract deployment is preserved. No contract redeployment or source-hash substitution occurred. The release-verification artifact distinguishes successful transaction finality from successful GenVM execution and canonical state.

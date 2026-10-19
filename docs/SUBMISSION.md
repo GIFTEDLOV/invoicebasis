@@ -54,7 +54,7 @@ Not applicable: standalone Intelligent Contract.
 
 Tests and CI cover party separation, frozen terms, bounded amount/rate arithmetic, floor rounding, string and SDK address serialization, invalid transitions, evidence hashes, strict semantic schema, prompt boundaries, validator disagreement, challenge timing, and finalization. The historical live case correctly finalized REVIEW_REQUIRED rather than forcing a positive result.
 
-- Exact-main CI: [workflow run 39161811618](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618) passed for the then-current main commit. Release-preparation exact-head CI and version tag CI will be linked on the repository release.
+- Exact-main CI: [workflow run 39175260479](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479) passed for the then-current main commit. The repository Actions history and versioned release provide the exact-HEAD and version-tag qualification results.
 - CI covers Python tests, GenVM lint, ABI/schema, source provenance, security analysis and app SDK/build/browser tests where applicable.
 - No unresolved Critical or High issue was identified in the release audit.
 - The historic 39138804500 workbench is not represented as a four-project PASS: NoticeClock was BLOCKED; the other three project artifacts individually report PASS. NoticeClock's later case 39142055216 passed its lifecycle, with terminal verdict INCONCLUSIVE.

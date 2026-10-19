@@ -13,9 +13,10 @@
   "terminalVerdict": "REVIEW_REQUIRED",
   "qualificationWorkflow": "https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500",
   "exactMainCi": {
-    "runId": 39161811618,
-    "url": "https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618",
-    "status": "PASS"
+    "runId": 39175260479,
+    "url": "https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479",
+    "status": "PASS",
+    "headSha": "abefd4a8d5345da71b9aba53eb6e3a32a67a6196"
   },
   "productionApp": null,
   "productionDeployment": null,
@@ -51,6 +52,7 @@
   "caseStatus": "FINALIZED",
   "workflowUrl": "https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500",
   "sourceProvenanceRun": "https://github.com/GIFTEDLOV/driftproof/actions/runs/39138161003",
-  "exactMainCiUrl": "https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618",
-  "productionQualification": "Standalone deployed V4 contract source and ABI verified; complete historic lifecycle finalized with recorded inconclusive/review outcome; Portal dossier prepared, not submitted."
+  "exactMainCiUrl": "https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479",
+  "productionQualification": "Standalone deployed V4 contract source and ABI verified; complete historic lifecycle finalized with recorded inconclusive/review outcome; Portal dossier prepared, not submitted.",
+  "exactMainCommit": "abefd4a8d5345da71b9aba53eb6e3a32a67a6196"
 }

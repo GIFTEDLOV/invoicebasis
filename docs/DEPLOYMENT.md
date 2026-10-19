@@ -14,7 +14,7 @@
 
 - Historic qualification case `GLV4-invoicebasis-39138804500` finalized `REVIEW_REQUIRED`; details and transaction hashes are in the checked-in evidence.
 - Qualification Actions: [run 39138804500](https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500).
-- Latest exact-main qualification CI before release preparation: [run 39161811618](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618).
+- Latest exact-main qualification CI on the release preparation baseline: [run 39175260479](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479).
 
 This repository has no production app URL; it is intentionally a standalone contract submission.
 
