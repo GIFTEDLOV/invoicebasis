@@ -26,7 +26,7 @@ Leader and validators independently classify the exact eligibility vector inside
 
 - Historic case: `GLV4-invoicebasis-39138804500`, terminal `REVIEW_REQUIRED`; source data is synthetic and explicitly labeled.
 - Historic qualification: [GitHub Actions run 39138804500](https://github.com/GIFTEDLOV/driftproof/actions/runs/39138804500).
-- Project exact-head CI: [run 39161811618](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39161811618).
+- Project exact-head CI: [run 39175260479](https://github.com/GIFTEDLOV/invoicebasis/actions/runs/39175260479).
 - This is a standalone contract; no frontend app is claimed.
 
 ## Release and submission status
